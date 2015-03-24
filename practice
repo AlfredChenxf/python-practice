@@ -1,0 +1,18 @@
+import time
+
+list = [1, 4, 40, 50, 100, 2, 7, 30, 20, 200]
+listSort = []
+
+def sort():
+    while True:
+        if list == []:
+            break
+
+        x = max(list)
+        listSort.append(x)
+        list.remove(x)
+
+    return listSort
+
+sort()
+print "listSort is: ", listSort
