@@ -8,3 +8,7 @@ class people(object):
         print "getName in class people: ", name
         return name
 
+
+if __name__ == '__main__':
+    name = people()
+    name.getName('ALfred')
